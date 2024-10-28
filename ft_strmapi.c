@@ -1,25 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: onur <onur@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/26 20:46:54 by odalkili          #+#    #+#             */
-/*   Updated: 2024/10/28 20:11:55 by onur             ###   ########.fr       */
+/*   Created: 2024/10/27 17:15:36 by odalkili          #+#    #+#             */
+/*   Updated: 2024/10/28 15:35:16 by onur             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 {
-	char	*tmp_ptr;
+	unsigned int	i;
+	char			*res;
 
-	tmp_ptr = (char *) s;
-	while (n > 0)
+	res = malloc((ft_strlen(s) + 1) * sizeof(char));
+	if (!res)
+		return (NULL);
+	i = 0;
+	while (i < ft_strlen(s))
 	{
-		*(tmp_ptr++) = 0;
-		n--;
+		res[i] = (*f)(i, s[i]);
+		i++;
 	}
+	res[i] = 0;
+	return (res);
 }
