@@ -6,7 +6,7 @@
 /*   By: onur <onur@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 20:46:54 by odalkili          #+#    #+#             */
-/*   Updated: 2024/10/28 20:11:55 by onur             ###   ########.fr       */
+/*   Updated: 2024/10/28 20:32:52 by onur             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	char	*tmp_ptr;
-
-	tmp_ptr = (char *) s;
-	while (n > 0)
-	{
-		*(tmp_ptr++) = 0;
-		n--;
-	}
+	ft_memset(s, '\0', n);
 }
