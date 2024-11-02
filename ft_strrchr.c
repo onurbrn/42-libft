@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: odalkili <odalkili@student.42.fr>          +#+  +:+       +#+        */
+/*   By: odalkili <odalkili@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/27 16:58:15 by odalkili          #+#    #+#             */
-/*   Updated: 2024/10/27 16:58:15 by odalkili         ###   ########.fr       */
+/*   Created: 2024/11/03 01:26:40 by odalkili          #+#    #+#             */
+/*   Updated: 2024/11/03 01:26:40 by odalkili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

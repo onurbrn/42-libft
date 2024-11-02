@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: odalkili <odalkili@student.42.fr>          +#+  +:+       +#+        */
+/*   By: odalkili <odalkili@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/27 17:15:36 by odalkili          #+#    #+#             */
-/*   Updated: 2024/11/02 01:09:08 by odalkili         ###   ########.fr       */
+/*   Created: 2024/11/03 01:26:22 by odalkili          #+#    #+#             */
+/*   Updated: 2024/11/03 01:26:23 by odalkili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

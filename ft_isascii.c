@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: odalkili <odalkili@student.42.fr>          +#+  +:+       +#+        */
+/*   By: odalkili <odalkili@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/22 16:54:23 by odalkili          #+#    #+#             */
-/*   Updated: 2024/10/27 20:47:52 by odalkili         ###   ########.fr       */
+/*   Created: 2024/11/03 01:24:24 by odalkili          #+#    #+#             */
+/*   Updated: 2024/11/03 01:24:24 by odalkili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: odalkili <odalkili@student.42.fr>          +#+  +:+       +#+        */
+/*   By: odalkili <odalkili@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/22 16:54:17 by odalkili          #+#    #+#             */
-/*   Updated: 2024/10/27 20:48:30 by odalkili         ###   ########.fr       */
+/*   Created: 2024/11/03 01:24:11 by odalkili          #+#    #+#             */
+/*   Updated: 2024/11/03 01:24:12 by odalkili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

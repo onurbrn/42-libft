@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: odalkili <odalkili@student.42.fr>          +#+  +:+       +#+        */
+/*   By: odalkili <odalkili@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/27 18:30:26 by odalkili          #+#    #+#             */
-/*   Updated: 2024/11/01 23:28:58 by odalkili         ###   ########.fr       */
+/*   Created: 2024/11/03 01:25:56 by odalkili          #+#    #+#             */
+/*   Updated: 2024/11/03 01:25:57 by odalkili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
