@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c) // Locates the first occurrence of character c in the string s.
 {
 	unsigned int	i;
 	char			cc;

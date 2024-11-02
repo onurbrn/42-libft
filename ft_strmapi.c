@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: onur <onur@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: odalkili <odalkili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 17:15:36 by odalkili          #+#    #+#             */
-/*   Updated: 2024/10/28 15:35:16 by onur             ###   ########.fr       */
+/*   Updated: 2024/11/02 01:09:08 by odalkili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,4 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	}
 	res[i] = 0;
 	return (res);
-}
+} //streitr 'nin malloclu versiyonu çünkü bir değer döndürüyo

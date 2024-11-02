@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c) // Locates the last occurrence of character c in the string s.
 {
 	int	i;
 

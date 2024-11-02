@@ -32,7 +32,7 @@ int main(void)
     int fd;
 
     // Open or create a .txt file to write into
-    fd = open("output.txt", O_WRONLY || O_CREAT || O_TRUNC, 0777);
+    fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0777);
     if (fd == -1)
     {
         perror("Error opening file");
